@@ -1,0 +1,146 @@
+
+body{
+background-color: #F3F5FC;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.logo{
+    padding: 35px 0; 
+}
+
+.contenedor-logo{
+/* Logo */
+/* Auto layout */
+display: block;
+flex-direction: column;
+align-items: flex-start;
+padding: 5px;
+gap: 40px;
+
+position: absolute;
+width: 120px;
+height: 48px;
+left: 40px;
+top: 10px;
+}
+
+.contenido{
+   display: inline;
+    margin: 0 auto;
+}
+
+.texto-a-encriptar{
+    width: 40em;
+    height: 30em;
+    float: left;
+    margin: 0 0 0 8%;
+    position: relative;
+}
+
+
+.text-area{
+    border: none;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    position: absolute;
+    background-color: #F3F5FC;
+    
+}
+.text-area:focus{
+    border-color: #e49f14;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px rgba(255,144,0,0.6);
+    outline: 0 none;
+}
+
+.m-1{
+    position: absolute;
+    margin: .5em;
+    bottom: 0;
+    padding-bottom: 3em;
+
+}
+.error{background-color: rgba(17, 0, 255, 0.342);}
+
+.botones{
+    display: inline;
+    float: left;
+    position:absolute;
+     bottom: 0;
+
+}
+.btn{
+    width: 20em;
+    padding: 10px;
+    border-radius: 15px;
+    float: left;
+}
+
+.btn-primary{
+    background-color: rgba(57, 57, 228, 0.808);
+    border: 1px solid rgba(57, 57, 228, 0.808);
+    color: #fff;
+}
+
+.btn-primary:hover{
+    background-color: rgba(142, 142, 238, 0.808);
+    border: 1px solid rgba(142, 142, 238, 0.808);
+    color: rgba(57, 57, 228, 0.808);
+}
+
+.btn-info{
+    background-color: rgba(199, 199, 211, 0.808);
+    border: 1px solid rgba(57, 57, 228, 0.808);
+    color: rgba(57, 57, 228, 0.808);
+}
+
+.btn-info:hover{
+    background-color: rgba(57, 57, 228, 0.5);
+    border: 1px solid rgba(57, 57, 228, 0.808);
+    color: #fff;
+}
+
+.resultado{
+    float: left;
+    height: 35em;
+    width: 20em;
+    position: relative;
+ }
+.card{
+    background-color: #fff;
+    height: 35em;
+    border-radius: 25px;
+    width: 20em;
+}
+
+.mensaje-encriptado{
+    position: absolute;
+    top: 15em;
+    left: 1em;
+}
+
+.imagen{margin: 5rem 8rem 2rem 5rem;} 
+.ocultarImagen{display: none;}
+.left{text-align: start;}
+.center{text-align: center;}
+.respuesta{top: 5em;}
+
+.copiar{
+    position: absolute;
+    bottom: 7em;
+    width: 80%;
+    padding: 10px;
+    border-radius: 15px;
+    margin-left: 2em ;
+    margin-left: 2em;
+}
+
+footer{
+
+    text-align: center;
+   padding: 1em 0;
+   margin-top: auto;
+}
+
